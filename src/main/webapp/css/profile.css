@@ -1,0 +1,62 @@
+.button_to_delete,
+.button_to_block {
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+.button_to_delete {
+    background-image: url("../static/trash.png");
+}
+
+.button_to_block {
+    background-image: url("../static/block.jpg");
+}
+
+.button_to_delete:hover,
+.button_to_block:hover {
+    width: 18px;
+    height: 18px;
+}
+
+#edit__div-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+#edit__div-avatar > img {
+    width: 150px;
+    /*height: 150px;*/
+}
+
+#profile__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.blocked {
+    background-color: yellow;
+}
+
+.profile__buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+}
+
+.profile__buttons > button {
+    margin-left: 8px;
+}
+
+.profile__additional_info {
+    display: flex;
+    order: 999;
+    margin-left: auto;
+}

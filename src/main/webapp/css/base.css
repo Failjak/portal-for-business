@@ -1,0 +1,29 @@
+.nav-btn {
+    border: 1px solid;
+    border-radius: 7px;
+    margin-left: 5px;
+}
+
+#navbar__login {
+
+}
+
+#navbar__register {
+
+}
+
+#navbar__logout {
+
+}
+
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.line {
+    border-bottom: 1px solid #4c4545;
+}
